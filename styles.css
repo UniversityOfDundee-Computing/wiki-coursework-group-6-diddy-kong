@@ -1,47 +1,48 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    color: #663605;
+    background-color: #f8c477;
 }
 
 header {
-    background-color: #3498db;
-    color: white;
-    text-align: center;
-    padding: 20px;
+    background-color: #ea0000c0;
+    color: #f8c477;
 }
 
-nav {
-    background-color: #2c3e50;
-    color: white;
-    padding: 10px;
-}
-
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
-    display: inline;
-    margin-right: 15px;
+.navbar {
+    background-color: #663605;
+    color: #f8c477;
 }
 
 nav a {
-    text-decoration: none;
-    color: white;
+    color: #f8c477;
     font-weight: bold;
 }
 
-main {
-    padding: 20px;
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 0, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 footer {
-    background-color: #34495e;
-    color: white;
+    background-color: #663605;
+    color: #f8c477;
     text-align: center;
     padding: 10px;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.diddy_kongImg{
+    width: auto;
+    height: 400px;
+}
+
+.landscapeImg{
+    width: 1150px;
+    height: auto;
+}
+
+.navBarImg{
+    width: 40px;
+    height: auto;
 }

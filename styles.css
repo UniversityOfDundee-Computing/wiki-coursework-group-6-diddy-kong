@@ -2,6 +2,9 @@ body {
     font-family: Arial, sans-serif;
     color: #663605;
     background-color: #f8c477;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -27,22 +30,35 @@ footer {
     background-color: #663605;
     color: #f8c477;
     text-align: center;
-    padding: 10px;
     width: 100%;
-    bottom: 0;
-    position: absolute;
-}
-.diddy_kongImg{
-    width: auto;
-    height: 400px;
 }
 
 .landscapeImg{
-    width: 1150px;
+    width: 1200px;
     height: auto;
 }
 
 .navBarImg{
     width: 40px;
     height: auto;
+}
+
+.indexCard{
+    background-color: #ea0000c0;
+    color: #f8c477;
+    max-width: 450px;
+}
+
+.cardImg{
+    width: 100%;
+    height: auto;
+}
+
+.card{
+    background-color: #ea0000c0;
+    color: #f8c477;
+}
+
+.container {
+    flex: 1 0 auto;
 }
